@@ -16,7 +16,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
-    margin: 10px;
+    margin: auto;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.5); /* Borde con color y transparencia */
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
@@ -24,7 +24,7 @@ body {
 }
 .card h1{
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 56px;
     color: white;
     text-shadow: 2px 2px 4px rgba(4, 49, 94, 0.582); /* Sombra de texto */
     margin-bottom: 10px;
@@ -48,33 +48,53 @@ body {
     width: auto;
     height: 850px;
     display: grid; /* Utiliza grid para organizar los botones */
-    grid-template-columns: 1fr; /* Dos columnas */
-    gap: 20px; /* Espacio entre botones */
-    margin-top: 20px; /* Espacio entre el texto y los botones */
-}
-.botones img{
-    margin-right: 10px; /* Espacio entre el icono y el texto */
-    margin-left: 10px;
-    color: #618396;
-    width: 28px;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 10px; /* Espacio entre botones */
+    margin-top: 5px; /* Espacio entre el texto y los botones */
 }
 .boton, .botones a {
     text-decoration: none; /* Elimina el subrayado */
     /* Tus otros estilos de botones aquí... */
 }
-a.boton{
+h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 5px;
+    color: #36596d;
+}
+h2 i{
+    margin-right: 10px;
+}
+ul{
     background-color: #9ad0c27a; /* Fondo semitransparente */
     color: #618396;
-    font-size: 28px;
-    font-weight: 600;
     padding: 2px;
     border: 1px solid rgba(255, 255, 255, 0.5); /* Borde con color y transparencia */
     border-radius: 40px;
-    margin-top: 10px;
-    gap: 20px;
+    list-style: none;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px;
+}
+li a{
+    text-decoration: none;
+    color: #22475c;
+    font-weight: bolder;
+}
+h4{
+    font-size: 24px;
+    margin: 5px 0px 5px 0px;
+    font-style: oblique;
+}
+h4 a{
+    text-decoration: none;
+    color: #22475c;
+    font-weight: bolder;
 }
 .boton-inicio i {
-    margin-top:40px;
+    margin-top:65px;
     font-size: 40px;
     color: white;
 }

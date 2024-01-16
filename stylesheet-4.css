@@ -8,10 +8,6 @@ body {
     background-image: url(/imagenes/Diseño\ sin\ título\ \(59\).png);
     background-size: cover;
 }
-img {
-    cursor: pointer;
-    /* Otros estilos que necesites */
-}
 .card {
     width: 800px;
     height: 1200px;
@@ -26,54 +22,30 @@ img {
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
     -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
 }
-.imagen-logo {
-    width: 195px;
-    height: 185px;
-    border-radius: 100%;
-    margin-left: 0px;
-    /*position: absolute;*/
-    transform: translateX(0%);
-    border: 3px solid white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra */
-    transition: transform 0.3s ease; /* Transición para el efecto 3D */
-}
-.imagen-logo:hover{
-    transform: translateX(0%) scale(1.1); /* Efecto 3D al pasar el mouse */
-}
 .card h1{
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 66px;
     color: white;
     text-shadow: 2px 2px 4px rgba(4, 49, 94, 0.582); /* Sombra de texto */
     margin-bottom: 0px;
-    margin-top: 5px;
+    margin-top: 45px;
 }
 .card p{
-    font-size: 30px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 05px;
     font-weight: 500;
     color: /*rgb(4, 49, 94)*/ white;
     font-style: oblique;
-}
-.idiomas{
-    margin-top: -10px;
-    margin-bottom: 10px;
-}
-.idiomas a{
-    text-decoration: none;
-    color: white;
-    font-style: oblique;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding: 20px;
 }
 .botones{
     width: auto;
-    height: 700px;
+    height: 500px;
     display: grid; /* Utiliza grid para organizar los botones */
-    grid-template-columns: 1fr; /* Dos columnas */
-    gap: 10px; /* Espacio entre botones */
-    margin-top: 20px; /* Espacio entre el texto y los botones */
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 30px; /* Espacio entre botones */
+    margin-top: 80px; /* Espacio entre el texto y los botones */
 }
 .boton {
     display: flex;
@@ -106,12 +78,13 @@ a.boton:hover, button.boton:hover {
     color: White;
 }
 .boton-inicio i {
-    margin-top:40px;
+    margin-top:80px;
     font-size: 40px;
     color: white;
 }
 .boton-inicio p{
-    font-size: 25px;
+    margin-top: -10px;
+    font-size: 35px;
     text-decoration: none;
     font-style: normal;
 }
