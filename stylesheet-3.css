@@ -12,7 +12,7 @@ body {
     width: 800px;
     height: 1200px;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.4); /* Transparencia con un toque de blanco */
+    background-color: rgba(167, 167, 167, 0.436); /* Transparencia con un toque de blanco */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
@@ -60,7 +60,7 @@ h2{
     font-size: 28px;
     font-weight: 900;
     margin: 0px 0px 0px 0px;
-    color: #36596d;
+    color: white;
 }
 h2 i{
     margin-right: 10px;
@@ -69,11 +69,11 @@ h3{
     font-size: 22px;
     margin: 0px 0px 10px 0px;
     font-style: oblique;
-    color: #36596d;;
+    color: white;
 }
 ul{
-    background-color: #9ad0c27a; /* Fondo semitransparente */
-    color: #618396;
+    background-color: #45aac97c; /* Fondo semitransparente */
+    color: white;
     padding: 2px;
     border: 1px solid rgba(255, 255, 255, 0.5); /* Borde con color y transparencia */
     border-radius: 40px;
@@ -86,7 +86,7 @@ li{
 }
 li a{
     text-decoration: none;
-    color: #22475c;
+    color: whitesmoke;
     font-weight: bolder;
 }
 h4{
@@ -96,7 +96,7 @@ h4{
 }
 h4 a{
     text-decoration: none;
-    color: #22475c;
+    color: whitesmoke;
     font-weight: bolder;
 }
 .boton-inicio i {

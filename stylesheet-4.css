@@ -12,7 +12,7 @@ body {
     width: 800px;
     height: 1200px;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.4); /* Transparencia con un toque de blanco */
+    background-color: rgba(167, 167, 167, 0.436); /* Transparencia con un toque de blanco */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
@@ -57,8 +57,8 @@ body {
     text-decoration: none; /* Elimina el subrayado */
 }
 a.boton{
-    background-color: #9ad0c27a; /* Fondo semitransparente */
-    color: #618396;
+    background-color: #45aac97c; /* Fondo semitransparente */
+    color: white;
     font-size: 30px;
     font-weight: 600;
     padding: 5px;
