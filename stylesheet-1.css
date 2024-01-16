@@ -1,0 +1,107 @@
+body {
+    font-family: 'Thasadith', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/imagenes/Diseño\ sin\ título\ \(59\).png);
+    background-size: cover;
+}
+img {
+    cursor: pointer;
+    /* Otros estilos que necesites */
+}
+.card {
+    width: 800px;
+    height: 1200px;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparencia con un toque de blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borde con color y transparencia */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
+}
+.imagen-logo {
+    width: 195px;
+    height: 185px;
+    border-radius: 100%;
+    margin-left: 0px;
+    /*position: absolute;*/
+    transform: translateX(0%);
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transición para el efecto 3D */
+}
+.imagen-logo:hover{
+    transform: translateX(0%) scale(1.1); /* Efecto 3D al pasar el mouse */
+}
+.card h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(4, 49, 94, 0.582); /* Sombra de texto */
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.card p{
+    font-size: 22px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: /*rgb(4, 49, 94)*/ white;
+    font-style: oblique;
+}
+.idiomas{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.idiomas a{
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.botones{
+    width: auto;
+    height: 850px;
+    display: grid; /* Utiliza grid para organizar los botones */
+    grid-template-columns: 1fr; /* Dos columnas */
+    gap: 10px; /* Espacio entre botones */
+    margin-top: 20px; /* Espacio entre el texto y los botones */
+}
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.boton, .botones a {
+    text-decoration: none; /* Elimina el subrayado */
+}
+a.boton{
+    background-color: #9ad0c27a; /* Fondo semitransparente */
+    color: #618396;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borde con color y transparencia */
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+    -webkit-backdrop-filter: blur(5px); /* Para compatibilidad con Safari */
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease; /* Transición suave */
+    gap: 10px;
+}
+a.boton:hover, button.boton:hover {
+    background-color: rgba(100, 170, 151, 0.478); /* Aumenta la opacidad al pasar el mouse */
+    backdrop-filter: blur(10px); /* Aumenta el desenfoque */
+    -webkit-backdrop-filter: blur(10px);
+    color: White;
+}
