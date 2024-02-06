@@ -13,9 +13,8 @@ img {
     /* Otros estilos que necesites */
 }
 .card {
-    width: 90%;
-    height: auto;
-    max-width: 1200px;
+    width: 900px;
+    height: 1200px;
     background-color: rgba(167, 167, 167, 0.436); /* Transparencia con un toque de blanco */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -27,11 +26,10 @@ img {
     -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
 }
 .imagen-logo {
-    width: 195px;
-    height: 185px;
+    width: 280px;
+    height:260px;
     border-radius: 100%;
     margin-left: 0px;
-    /*position: absolute;*/
     transform: translateX(0%);
     border: 3px solid white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra */

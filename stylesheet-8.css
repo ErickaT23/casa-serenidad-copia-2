@@ -10,9 +10,8 @@ body {
     background-size: cover;
 }
 .card {
-    width: 800px;
+    width: 900px;
     height: 1200px;
-    max-width: 1200px;
     background-color: rgba(167, 167, 167, 0.436); /* Transparencia con un toque de blanco */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
